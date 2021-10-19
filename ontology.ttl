@@ -1,12 +1,8 @@
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix eb: <https://w3id.org/eb/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-eb:Volume a owl:Class ;
-    rdfs:label "Volume" ;
-    rdfs:comment "a book from an edition or a supplement" .
 
 eb: a owl:Ontology ;
     dc:creator "Rosa Filgueira" ;
@@ -28,6 +24,10 @@ eb:Topic a owl:Class ;
     rdfs:label "Topic" ;
     rdfs:comment "is the entry in the encyclopaedia describing a term in one or several pages."@en ; 
     rdfs:subClassOf eb:Term .
+
+eb:Volume a owl:Class ;
+    rdfs:label "Volume" ;
+    rdfs:comment "a book from an edition or a supplement" .
 
 eb:altoXML a owl:DatatypeProperty ;
     rdfs:label "alto x m l" ;
@@ -169,7 +169,8 @@ eb:referencedBy a owl:ObjectProperty ;
 eb:relatedTerms a owl:ObjectProperty ;
     rdfs:label "related terms" ;
     rdfs:comment "is a property describing that a term is related with other terms." ; 
-    rdfs:domain eb:Term .
+    rdfs:domain eb:Term ;
+    rdfs:range eb:Term .
 
 eb:shelfLocator a owl:DatatypeProperty ;
     rdfs:label "shelf locator" ;
@@ -221,7 +222,7 @@ eb:year a owl:DatatypeProperty ;
 
 eb:Book a owl:Class ;
     rdfs:label "Book" ;
-    rdfs:comment "is a book that is not part of the encyclopaedia." ;
+    rdfs:comment "is a book that is not part of the encyclopaedia." .
 
 eb:Organization a owl:Class ;
     rdfs:label "Organization" ;
