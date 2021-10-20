@@ -413,6 +413,9 @@
     "@language" : "en",
     "@value" : "Date of death of a person"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/eb#Person"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "death date"

@@ -358,6 +358,7 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/eb#deathDate">
         <rdfs:subPropertyOf rdf:resource="http://schema.org/deathDate"/>
+        <rdfs:domain rdf:resource="https://w3id.org/eb#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">Date of death of a person</rdfs:comment>
         <rdfs:label xml:lang="en">death date</rdfs:label>

@@ -213,6 +213,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://w3id.org/eb#deathDate
 :deathDate rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf <http://schema.org/deathDate> ;
+           rdfs:domain :Person ;
            rdfs:range xsd:dateTime ;
            rdfs:comment "Date of death of a person"@en ;
            rdfs:label "death date"@en .
