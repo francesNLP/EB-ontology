@@ -1,5 +1,5 @@
 <https://w3id.org/eb#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/eb#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/eb/0.0.1> .
+<https://w3id.org/eb#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/eb/0.0.2> .
 <https://w3id.org/eb#> <http://purl.org/dc/elements/1.1/contributor> "Daniel Garijo"@en .
 <https://w3id.org/eb#> <http://purl.org/dc/elements/1.1/creator> "Rosa Filgueira" .
 <https://w3id.org/eb#> <http://purl.org/dc/elements/1.1/description> "An ontology designed to represent volumes, terms and editions of the Encyclopaedia Britannica. The ontology extends Schema.org."@en .
@@ -7,7 +7,7 @@
 <https://w3id.org/eb#> <http://purl.org/dc/elements/1.1/title> "EB Ontology" .
 <https://w3id.org/eb#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eb"@en .
 <https://w3id.org/eb#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/eb> .
-<https://w3id.org/eb#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://w3id.org/eb#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.2" .
 # 
 # 
 # #################################################################
@@ -185,12 +185,6 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # http://schema.org/identifier
 <http://schema.org/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://w3id.org/eb#Number
-<https://w3id.org/eb#Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/eb#Number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<https://w3id.org/eb#Number> <http://www.w3.org/2000/01/rdf-schema#comment> "is the number of the item (e.g., volume 2, page 100, etc.)"@en .
-<https://w3id.org/eb#Number> <http://www.w3.org/2000/01/rdf-schema#label> "number"@en .
-# 
 # https://w3id.org/eb#altoXML
 <https://w3id.org/eb#altoXML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/eb#altoXML> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
@@ -260,6 +254,13 @@ _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/eb#language> <http://www.w3.org/2000/01/rdf-schema#comment> "is the language used to write the encyclopaedia"@en .
 <https://w3id.org/eb#language> <http://www.w3.org/2000/01/rdf-schema#label> "language"@en .
 # 
+# https://w3id.org/eb#ldaTopic
+<https://w3id.org/eb#ldaTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/eb#ldaTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/eb#Term> .
+<https://w3id.org/eb#ldaTopic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/eb#ldaTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "is the classification of a term into an NLP topic model."@en .
+<https://w3id.org/eb#ldaTopic> <http://www.w3.org/2000/01/rdf-schema#label> "LDA topic"@en .
+# 
 # https://w3id.org/eb#letters
 <https://w3id.org/eb#letters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/eb#letters> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid17 .
@@ -305,6 +306,12 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/eb#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/eb#name> <http://www.w3.org/2000/01/rdf-schema#comment> "is the name of an item"@en .
 <https://w3id.org/eb#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# https://w3id.org/eb#number
+<https://w3id.org/eb#number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/eb#number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/eb#number> <http://www.w3.org/2000/01/rdf-schema#comment> "is the number of the item (e.g., volume 2, page 100, etc.)"@en .
+<https://w3id.org/eb#number> <http://www.w3.org/2000/01/rdf-schema#label> "number"@en .
 # 
 # https://w3id.org/eb#numberOfPages
 <https://w3id.org/eb#numberOfPages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -427,6 +434,13 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/eb#subtitle> <http://www.w3.org/2000/01/rdf-schema#comment> "is the subtitle of an item."@en .
 <https://w3id.org/eb#subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "subtitle"@en .
 # 
+# https://w3id.org/eb#summarizedTopic
+<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/eb#Topic> .
+<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "is the text summarization of a topic definition."@en .
+<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#label> "LDA topic"@en .
+# 
 # https://w3id.org/eb#termsOfAddress
 <https://w3id.org/eb#termsOfAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/eb#termsOfAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/eb#Person> .
@@ -538,4 +552,4 @@ _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/eb#Volume> <http://www.w3.org/2000/01/rdf-schema#comment> "a book from an edition or a supplement"@en .
 <https://w3id.org/eb#Volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume"@en .
 # 
-# Generated by the OWL API (version 5.1.14.2020-04-18T20:17:57Z) https://github.com/owlcs/owlapi/
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

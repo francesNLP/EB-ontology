@@ -230,7 +230,8 @@ This section provides details for each class and property defined by EB Ontology
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#definition" title="https://w3id.org/eb#definition">definition</a>
+            <a href="#ldaTopic" title="https://w3id.org/eb#ldaTopic">LDA topic</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#definition" title="https://w3id.org/eb#definition">definition</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#endsAtPage" title="https://w3id.org/eb#endsAtPage">ends at page</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#position" title="https://w3id.org/eb#position">position</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#relatedTerms" title="https://w3id.org/eb#relatedTerms">related terms</a>
@@ -261,6 +262,11 @@ This section provides details for each class and property defined by EB Ontology
          <dd>
             <a href="#Term" title="https://w3id.org/eb#Term">Term</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#summarizedTopic" title="https://w3id.org/eb#summarizedTopic">LDA topic</a>
+            <sup class="type-dp" title="data property">dp</sup>
          </dd>
       </dl>
    </div>
@@ -625,6 +631,12 @@ This section provides details for each class and property defined by EB Ontology
          <a href="#language" title="https://w3id.org/eb#language">language</a>
       </li>
       <li>
+         <a href="#ldaTopic" title="https://w3id.org/eb#ldaTopic">LDA topic</a>
+      </li>
+      <li>
+         <a href="#summarizedTopic" title="https://w3id.org/eb#summarizedTopic">LDA topic</a>
+      </li>
+      <li>
          <a href="#letters" title="https://w3id.org/eb#letters">letters</a>
       </li>
       <li>
@@ -637,7 +649,7 @@ This section provides details for each class and property defined by EB Ontology
          <a href="#name" title="https://w3id.org/eb#name">name</a>
       </li>
       <li>
-         <a href="#Number" title="https://w3id.org/eb#Number">number</a>
+         <a href="#number" title="https://w3id.org/eb#number">number</a>
       </li>
       <li>
          <a href="#numberOfPages" title="https://w3id.org/eb#numberOfPages">number of pages</a>
@@ -885,6 +897,58 @@ This section provides details for each class and property defined by EB Ontology
          </dl>
       </div>
    </div>
+   <div class="entity" id="ldaTopic">
+      <h3>LDA topic<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/eb#ldaTopic</p>
+      <div class="comment">
+         <span class="markdown">is the classification of a term into an NLP topic model.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Term" title="https://w3id.org/eb#Term">Term</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="summarizedTopic">
+      <h3>LDA topic<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/eb#summarizedTopic</p>
+      <div class="comment">
+         <span class="markdown">is the text summarization of a topic definition.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Topic" title="https://w3id.org/eb#Topic">Topic</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="letters">
       <h3>letters<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -995,13 +1059,13 @@ This section provides details for each class and property defined by EB Ontology
          </dl>
       </div>
    </div>
-   <div class="entity" id="Number">
+   <div class="entity" id="number">
       <h3>number<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/eb#Number</p>
+         <strong>IRI:</strong> https://w3id.org/eb#number</p>
       <div class="comment">
          <span class="markdown">is the number of the item (e.g., volume 2, page 100, etc.)</span>
       </div>
@@ -1422,5 +1486,6 @@ This section provides details for each class and property defined by EB Ontology
 <sup class="type-c" title="Classes">c</sup>: Classes <br/>
 <sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
 <sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>
