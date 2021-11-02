@@ -37,17 +37,17 @@
         "value" : "eb",
         "type" : "label"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "0.0.2",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/eb",
         "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.2",
+        "type" : "label"
       } ],
       "title" : [ {
         "identifier" : "title",
@@ -262,7 +262,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "21"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
@@ -281,7 +281,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "27" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "26"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -348,7 +348,7 @@
   }, {
     "instances" : 0,
     "union" : [ "43", "11", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "42"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
@@ -367,7 +367,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "49"
   }, {
     "iri" : "https://w3id.org/eb#Supplement",
@@ -383,11 +383,11 @@
     "id" : "15",
     "superClasses" : [ "50" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "51",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -399,7 +399,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "27", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "38"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -466,11 +466,11 @@
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "74",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -495,7 +495,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "27", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "76"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -507,7 +507,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "84"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -533,7 +533,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "87"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -545,7 +545,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "1"
   }, {
     "iri" : "https://w3id.org/eb#Book",
@@ -606,7 +606,7 @@
   }, {
     "instances" : 0,
     "union" : [ "43", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "100"
   }, {
     "iri" : "https://w3id.org/eb#Volume",
@@ -652,7 +652,7 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "104"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -671,12 +671,12 @@
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "4"
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "99"
   }, {
     "iri" : "https://w3id.org/eb#Organization",
@@ -905,7 +905,7 @@
       "IRI-based" : "deathDate"
     },
     "domain" : "8",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "7"
   }, {
     "iri" : "https://w3id.org/eb#supplementsTo",
@@ -1289,7 +1289,7 @@
       "IRI-based" : "identifier"
     },
     "domain" : "8",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "91"
   }, {
     "iri" : "https://w3id.org/eb#definition",
@@ -1313,7 +1313,7 @@
       "IRI-based" : "birthDate"
     },
     "domain" : "8",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "94"
   }, {
     "iri" : "https://w3id.org/eb#letters",

@@ -290,7 +290,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://w3id.org/eb#mmsid
 :mmsid rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf <http://schema.org/identifier> ;
-       rdfs:range xsd:string ;
+       rdfs:range xsd:int ;
        rdfs:comment "is the Metadata Management System identifier of an edition or supplement"@en ;
        rdfs:label "mmsid"@en .
 
@@ -445,7 +445,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://w3id.org/eb#volumeId
 :volumeId rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf <http://schema.org/identifier> ;
-          rdfs:range xsd:string ;
+          rdfs:range xsd:int ;
           rdfs:comment "is the identifier of a volume."@en ;
           rdfs:label "volume id"@en .
 

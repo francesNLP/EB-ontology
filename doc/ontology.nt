@@ -285,7 +285,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/eb#mmsid
 <https://w3id.org/eb#mmsid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/eb#mmsid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> .
-<https://w3id.org/eb#mmsid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/eb#mmsid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <https://w3id.org/eb#mmsid> <http://www.w3.org/2000/01/rdf-schema#comment> "is the Metadata Management System identifier of an edition or supplement"@en .
 <https://w3id.org/eb#mmsid> <http://www.w3.org/2000/01/rdf-schema#label> "mmsid"@en .
 # 
@@ -469,7 +469,7 @@ _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/eb#volumeId
 <https://w3id.org/eb#volumeId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/eb#volumeId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> .
-<https://w3id.org/eb#volumeId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/eb#volumeId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <https://w3id.org/eb#volumeId> <http://www.w3.org/2000/01/rdf-schema#comment> "is the identifier of a volume."@en .
 <https://w3id.org/eb#volumeId> <http://www.w3.org/2000/01/rdf-schema#label> "volume id"@en .
 # 
