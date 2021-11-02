@@ -439,7 +439,7 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/eb#Topic> .
 <https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "is the text summarization of a topic definition."@en .
-<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#label> "LDA topic"@en .
+<https://w3id.org/eb#summarizedTopic> <http://www.w3.org/2000/01/rdf-schema#label> "Summarized topic"@en .
 # 
 # https://w3id.org/eb#termsOfAddress
 <https://w3id.org/eb#termsOfAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

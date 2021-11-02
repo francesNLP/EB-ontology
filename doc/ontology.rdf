@@ -686,7 +686,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/eb#Topic"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">is the text summarization of a topic definition.</rdfs:comment>
-        <rdfs:label xml:lang="en">LDA topic</rdfs:label>
+        <rdfs:label xml:lang="en">Summarized topic</rdfs:label>
     </owl:DatatypeProperty>
     
 

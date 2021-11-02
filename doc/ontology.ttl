@@ -426,7 +426,7 @@ xsd:date rdf:type rdfs:Datatype .
                  rdfs:domain :Topic ;
                  rdfs:range xsd:string ;
                  rdfs:comment "is the text summarization of a topic definition."@en ;
-                 rdfs:label "LDA topic"@en .
+                 rdfs:label "Summarized topic"@en .
 
 
 ###  https://w3id.org/eb#termsOfAddress
