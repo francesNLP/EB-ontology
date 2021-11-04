@@ -465,7 +465,7 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/eb#mmsid">
         <rdfs:subPropertyOf rdf:resource="http://schema.org/identifier"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">is the Metadata Management System identifier of an edition or supplement</rdfs:comment>
         <rdfs:label xml:lang="en">mmsid</rdfs:label>
     </owl:DatatypeProperty>

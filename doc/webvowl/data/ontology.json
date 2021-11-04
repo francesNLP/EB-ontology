@@ -98,7 +98,7 @@
     "id" : "40",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "5",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
     "id" : "42",
@@ -170,7 +170,7 @@
     "id" : "85",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "80",
+    "id" : "79",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "86",
@@ -179,10 +179,10 @@
     "id" : "87",
     "type" : "owl:unionOf"
   }, {
-    "id" : "2",
+    "id" : "6",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "1",
+    "id" : "5",
     "type" : "owl:unionOf"
   }, {
     "id" : "61",
@@ -200,7 +200,7 @@
     "id" : "50",
     "type" : "owl:Class"
   }, {
-    "id" : "100",
+    "id" : "99",
     "type" : "owl:unionOf"
   }, {
     "id" : "27",
@@ -227,10 +227,10 @@
     "id" : "19",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "4",
+    "id" : "1",
     "type" : "owl:unionOf"
   }, {
-    "id" : "99",
+    "id" : "98",
     "type" : "owl:unionOf"
   }, {
     "id" : "43",
@@ -343,11 +343,11 @@
     "comment" : {
       "en" : "is a person"
     },
-    "id" : "5",
+    "id" : "2",
     "superClasses" : [ "41" ]
   }, {
     "instances" : 0,
-    "union" : [ "43", "11", "5" ],
+    "union" : [ "43", "11", "2" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "42"
   }, {
@@ -383,11 +383,11 @@
     "id" : "15",
     "superClasses" : [ "50" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "51",
     "label" : {
-      "IRI-based" : "int"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -519,7 +519,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "80",
+    "id" : "79",
     "label" : {
       "IRI-based" : "string"
     }
@@ -538,7 +538,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "2",
+    "id" : "6",
     "label" : {
       "IRI-based" : "string"
     }
@@ -546,7 +546,7 @@
     "instances" : 0,
     "union" : [ "16", "15" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "1"
+    "id" : "5"
   }, {
     "iri" : "https://w3id.org/eb#Book",
     "baseIri" : "https://w3id.org/eb",
@@ -567,7 +567,7 @@
     "label" : {
       "IRI-based" : "Person"
     },
-    "subClasses" : [ "5" ],
+    "subClasses" : [ "2" ],
     "attributes" : [ "external" ],
     "id" : "41"
   }, {
@@ -605,9 +605,9 @@
     "id" : "50"
   }, {
     "instances" : 0,
-    "union" : [ "43", "5" ],
+    "union" : [ "43", "2" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "100"
+    "id" : "99"
   }, {
     "iri" : "https://w3id.org/eb#Volume",
     "baseIri" : "https://w3id.org/eb",
@@ -672,12 +672,12 @@
     "instances" : 0,
     "union" : [ "16", "15" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "4"
+    "id" : "1"
   }, {
     "instances" : 0,
     "union" : [ "16", "15" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "99"
+    "id" : "98"
   }, {
     "iri" : "https://w3id.org/eb#Organization",
     "baseIri" : "https://w3id.org/eb",
@@ -707,10 +707,10 @@
   } ],
   "property" : [ {
     "id" : "0",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "3",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "7",
     "type" : "owl:datatypeProperty"
@@ -740,10 +740,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "44",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "45",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "52",
     "type" : "owl:datatypeProperty"
@@ -766,7 +766,7 @@
     "id" : "64",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "6",
+    "id" : "3",
     "type" : "owl:objectProperty"
   }, {
     "id" : "65",
@@ -793,7 +793,7 @@
     "id" : "78",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "79",
+    "id" : "80",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "81",
@@ -829,11 +829,11 @@
     "id" : "97",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "98",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "46",
+    "id" : "45",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "101",
     "type" : "owl:datatypeProperty"
@@ -869,34 +869,34 @@
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://w3id.org/eb#shelfLocator",
-    "baseIri" : "https://w3id.org/eb",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "shelfLocator",
-      "en" : "shelf locator"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "is the shelf locator in which an edition or supplement is stored in the library."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "0"
-  }, {
     "iri" : "https://w3id.org/eb#editor",
     "baseIri" : "https://w3id.org/eb",
-    "range" : "5",
+    "range" : "2",
     "label" : {
       "IRI-based" : "editor",
       "en" : "editor"
     },
-    "superproperty" : [ "6" ],
-    "domain" : "4",
+    "superproperty" : [ "3" ],
+    "domain" : "1",
     "comment" : {
       "en" : "is the editor of an edition or supplement"
     },
     "attributes" : [ "object" ],
-    "id" : "3"
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/eb#shelfLocator",
+    "baseIri" : "https://w3id.org/eb",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "shelfLocator",
+      "en" : "shelf locator"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "is the shelf locator in which an edition or supplement is stored in the library."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "4"
   }, {
     "iri" : "http://schema.org/deathDate",
     "baseIri" : "http://schema.org",
@@ -905,7 +905,7 @@
       "IRI-based" : "deathDate"
     },
     "domain" : "8",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "7"
   }, {
     "iri" : "https://w3id.org/eb#supplementsTo",
@@ -972,7 +972,7 @@
     },
     "domain" : "8",
     "subproperty" : [ "34" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "33"
   }, {
     "iri" : "https://w3id.org/eb#endsAtPage",
@@ -1017,6 +1017,17 @@
     "attributes" : [ "datatype" ],
     "id" : "37"
   }, {
+    "iri" : "http://schema.org/publisher",
+    "baseIri" : "http://schema.org",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "publisher"
+    },
+    "domain" : "8",
+    "subproperty" : [ "45" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "44"
+  }, {
     "iri" : "https://w3id.org/eb#name",
     "baseIri" : "https://w3id.org/eb",
     "range" : "40",
@@ -1029,18 +1040,7 @@
       "en" : "is the name of an item"
     },
     "attributes" : [ "datatype" ],
-    "id" : "44"
-  }, {
-    "iri" : "http://schema.org/publisher",
-    "baseIri" : "http://schema.org",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "publisher"
-    },
-    "domain" : "8",
-    "subproperty" : [ "46" ],
-    "attributes" : [ "external", "object" ],
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "https://w3id.org/eb#position",
     "baseIri" : "https://w3id.org/eb",
@@ -1121,9 +1121,9 @@
       "IRI-based" : "editor"
     },
     "domain" : "8",
-    "subproperty" : [ "3" ],
-    "attributes" : [ "external", "object" ],
-    "id" : "6"
+    "subproperty" : [ "0" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "3"
   }, {
     "iri" : "https://w3id.org/eb#numberOfWords",
     "baseIri" : "https://w3id.org/eb",
@@ -1156,7 +1156,7 @@
       "IRI-based" : "deathDate",
       "en" : "death date"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "Date of death of a person"
     },
@@ -1164,7 +1164,7 @@
     "id" : "68"
   }, {
     "range" : "41",
-    "domain" : "5",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "70"
   }, {
@@ -1187,6 +1187,20 @@
     "attributes" : [ "datatype" ],
     "id" : "75"
   }, {
+    "iri" : "https://w3id.org/eb#summarizedTopic",
+    "baseIri" : "https://w3id.org/eb",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "summarizedTopic",
+      "en" : "Summarized topic"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "is the text summarization of a topic definition."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "78"
+  }, {
     "iri" : "https://w3id.org/eb#ldaTopic",
     "baseIri" : "https://w3id.org/eb",
     "range" : "57",
@@ -1199,21 +1213,7 @@
       "en" : "is the classification of a term into an NLP topic model."
     },
     "attributes" : [ "datatype" ],
-    "id" : "78"
-  }, {
-    "iri" : "https://w3id.org/eb#summarizedTopic",
-    "baseIri" : "https://w3id.org/eb",
-    "range" : "80",
-    "label" : {
-      "IRI-based" : "summarizedTopic",
-      "en" : "Summarized topic"
-    },
-    "domain" : "12",
-    "comment" : {
-      "en" : "is the text summarization of a topic definition."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "79"
+    "id" : "80"
   }, {
     "iri" : "https://w3id.org/eb#birthDate",
     "baseIri" : "https://w3id.org/eb",
@@ -1222,7 +1222,7 @@
       "IRI-based" : "birthDate",
       "en" : "Birth date"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "Date of birth of a person"
     },
@@ -1237,7 +1237,7 @@
     },
     "domain" : "8",
     "subproperty" : [ "54" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "55"
   }, {
     "iri" : "https://w3id.org/eb#subtitle",
@@ -1289,7 +1289,7 @@
       "IRI-based" : "identifier"
     },
     "domain" : "8",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "91"
   }, {
     "iri" : "https://w3id.org/eb#definition",
@@ -1313,7 +1313,7 @@
       "IRI-based" : "birthDate"
     },
     "domain" : "8",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "94"
   }, {
     "iri" : "https://w3id.org/eb#letters",
@@ -1337,7 +1337,7 @@
       "IRI-based" : "termsOfAddress",
       "en" : "terms of address"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "is the terms of address of a person."
     },
@@ -1358,6 +1358,21 @@
     "attributes" : [ "datatype" ],
     "id" : "97"
   }, {
+    "iri" : "https://w3id.org/eb#publisher",
+    "baseIri" : "https://w3id.org/eb",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "publisher",
+      "en" : "publisher"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "98",
+    "comment" : {
+      "en" : "is the publisher of an edition or supplement. The publisher can be one or several persons, and/or an organization"
+    },
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
     "iri" : "https://w3id.org/eb#physicalDescription",
     "baseIri" : "https://w3id.org/eb",
     "range" : "28",
@@ -1370,22 +1385,7 @@
       "en" : "is the physical description of an edition or supplement."
     },
     "attributes" : [ "datatype" ],
-    "id" : "98"
-  }, {
-    "iri" : "https://w3id.org/eb#publisher",
-    "baseIri" : "https://w3id.org/eb",
-    "range" : "100",
-    "label" : {
-      "IRI-based" : "publisher",
-      "en" : "publisher"
-    },
-    "superproperty" : [ "45" ],
-    "domain" : "99",
-    "comment" : {
-      "en" : "is the publisher of an edition or supplement. The publisher can be one or several persons, and/or an organization"
-    },
-    "attributes" : [ "object" ],
-    "id" : "46"
+    "id" : "100"
   }, {
     "iri" : "https://w3id.org/eb#publicationYear",
     "baseIri" : "https://w3id.org/eb",
